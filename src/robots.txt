@@ -1,0 +1,34 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://yulia-storozhevska.com/sitemap.xml
+
+# Заборонені для індексації сторінки
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+# Дозволити доступ до основних ресурсів
+Allow: /components/
+Allow: /styles/
+Allow: /assets/
+
+# Час затримки між запитами (в секундах)
+Crawl-delay: 1
+
+# Специфічні правила для різних пошукових роботів
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Заборонити доступ до технічних файлів
+Disallow: /*.tsx$
+Disallow: /*.ts$
+Disallow: /node_modules/
+Disallow: /.git/

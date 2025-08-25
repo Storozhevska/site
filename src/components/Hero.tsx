@@ -18,11 +18,13 @@ export function Hero() {
 
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
+         <h1 className="text-2xl md:text-3xl lg:text-4xl text-stone-800 mb-8 leading-tight">
+  Простір натхнення,<br />
+  де ви зустрічаєте себе
+</h1>
           <h1 className="text-4xl md:text-6xl lg:text-7xl text-stone-800 mb-8 leading-tight">
-            Простір натхнення,<br />
-            де ви зустрічаєте себе
+            Живу на повну
           </h1>
-          
           <p className="text-xl md:text-2xl text-stone-600 mb-8 max-w-2xl mx-auto leading-relaxed">
             Психотерапевтична група online для глибокого розуміння себе та гармонійних відносин
           </p>

@@ -1,4 +1,5 @@
 import { InstagramButton } from "./InstagramButton";
+import { RegistrationButton } from "./RegistrationButton";
 
 export function GroupCourse() {
   return (
@@ -140,7 +141,8 @@ export function GroupCourse() {
               </div>
 
               <div className="text-center mt-8">
-                <InstagramButton variant="secondary" size="md" />
+                {/* <InstagramButton variant="secondary" size="md" /> */}
+                 <RegistrationButton variant="primary" size="lg" />
               </div>
             </div>
           </div>
